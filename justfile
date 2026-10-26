@@ -1,6 +1,10 @@
 default: check
 
-check: lint-source fmt-check clippy test
+check: lint-source secrets fmt-check clippy test
+
+secrets:
+    gitleaks git --pre-commit --staged --redact --no-banner .
+    gitleaks git --pre-commit --redact --no-banner .
 
 fmt-check:
     cargo fmt --all --check

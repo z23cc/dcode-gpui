@@ -10,7 +10,8 @@ that a reviewer would reject.
 
 | Command                    | What it does                                                      |
 | -------------------------- | ----------------------------------------------------------------- |
-| `just check`               | fmt check, clippy (`-D warnings`), tests, source lint             |
+| `just check`               | source lint, secret scan, fmt check, clippy (`-D warnings`), tests |
+| `just secrets`             | gitleaks over staged and unstaged changes                         |
 | `just fix`                 | clippy `--fix`, then fmt                                          |
 | `just run`                 | the app (needs a running host)                                    |
 | `just probe`               | read-only live check of the wire against a running host           |
@@ -56,6 +57,9 @@ Reference implementations to copy: `state/home.rs`, `views/home.rs`,
 - `scripts/lint-source.sh`: at most 400 lines per `.rs` file; no comments except `// SAFETY:`
   (line, trailing and block comments all count).
 - `unreachable_pub`: an item is `pub` only if it is reachable from its crate's root.
+- `gitleaks` (default rules) fails on a secret in any uncommitted change, so the pre-commit
+  hook blocks it. The repo is public; GitHub push protection is the second line. A false
+  positive goes into a `.gitleaks.toml` allowlist entry with its reason, never `--no-verify`.
 - Workspace-wide allows: the doc lints (this repo has no doc comments) and
   `used_underscore_binding` (GPUI entities own tasks and subscriptions in `_` fields).
 

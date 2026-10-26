@@ -13,8 +13,8 @@ A rewrite of the DCode desktop client in Rust on [GPUI](https://www.gpui.rs) and
 
 ## Run
 
-Needs [just](https://just.systems), a running host (DCode or DCode Beta) and Xcode's Metal
-toolchain. `rust-toolchain.toml` pins Rust 1.99.1; GPUI does not build on 1.97.
+Needs [just](https://just.systems), [gitleaks](https://github.com/gitleaks/gitleaks), a running
+host (DCode or DCode Beta) and Xcode's Metal toolchain. `rust-toolchain.toml` pins Rust 1.99.1; GPUI does not build on 1.97.
 
 ```bash
 just run      # the app
