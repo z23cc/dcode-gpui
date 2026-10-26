@@ -1,0 +1,2817 @@
+{
+  "rpc": {
+    "manifest": {
+      "host.status": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "host.getRuntimeCapabilities": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "host.getRateLimitUsage": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "comments.listThreads": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "comments.setThreadStatus": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "snapshots.getLocalStorageSize": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "snapshots.readSnapshotDiff": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "snapshots.clearLocalSnapshots": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "agent.gui.listHarnesses": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "agent.gui.listModels": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "agent.gui.listCommands": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "agent.gui.getPlan": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "agent.tui.listHarnesses": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "agent.tui.prepareLaunch": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "agent.tui.generateTitle": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "agent.tui.turnEnded": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "agent.tui.recordActivity": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "agent.create": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "agent.selectionGuide": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "agent.selectionGuide.getGlobal": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "agent.selectionGuide.getGlobalOnboardingDraft": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "agent.selectionGuide.setGlobal": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "agent.selectionGuide.resetGlobalToDefault": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "agent.listHarnessModels": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "agent.list": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "agent.sendMessage": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "agent.getTranscript": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "agent.inbox.read": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "agent.stop": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "phase.migrateToEpic": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.listTasks": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.create": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.batchDelete": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "workspace.prepareFolders": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "workspace.listFileTree": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "workspace.listDirectory": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "workspace.readFile": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "workspace.mentionFiles": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "workspace.mentionFolders": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "workspace.mentionWorktrees": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "workspace.mentionGitRoot": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "workspace.mentionGitBranches": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "workspace.mentionGitCommits": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "workspace.resolvePathsByRepoIdentifiers": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.removeRepo": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.mentionEpics": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.mentionSpecs": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.mentionTickets": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.mentionStories": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.mentionReviews": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.listCollaborators": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.createArtifact": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.deleteArtifact": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.updateArtifactStatus": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.renameArtifact": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.reparentArtifact": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.createChat": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.renameChat": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.deleteChat": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.reparentChat": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.createTuiAgent": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.deleteTuiAgent": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.renameTuiAgent": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.updateTitle": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.grantAccess": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.batchUpdateRoles": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.revokeCollaborator": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.createCommentThread": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.replyToCommentThread": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.editComment": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.deleteComment": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.setCommentThreadResolved": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.deleteCommentThread": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.listCommentThreads": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.resolveArtifactByPath": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "editor.openPaths": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "git.listChangedFiles": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "git.getFileDiff": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "git.getFileDiffs": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "git.getCapabilities": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "terminal.create": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "terminal.kill": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "terminal.list": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "terminal.rename": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "worktree.listByWorkspacePaths": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "worktree.listBranches": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "worktree.create": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "worktree.createPaths": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "worktree.import": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "worktree.setEntryMode": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "workspaceBinding.removeEntry": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "worktree.retrySetup": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "worktree.delete": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "worktree.listAllForHost": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "worktree.setRepoScripts": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "worktree.getBinding": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "worktree.listBindingsForEpic": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "speech.getModelStatus": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "speech.ensureModel": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "providers.list": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "providers.setSelection": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "providers.addCustomPath": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "providers.removeCustomPath": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "providers.detectVersion": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "providers.startLogin": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "providers.awaitLogin": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "providers.cancelLogin": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "providers.setApiKey": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "providers.clearApiKey": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "providers.setTerminalAgentArgs": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "providers.setEnvOverride": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "providers.deleteEnvOverride": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "providers.setEnabled": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      }
+    },
+    "optionalManifest": {
+      "browser.savedLoginSites": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "config.shell.get": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "config.shell.set": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "config.shell.reset": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "config.shell.add": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "config.shell.remove": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "config.shell.revertArgs": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "config.shell.listDetected": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "config.shell.probe": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "config.env.list": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "config.env.set": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "config.env.delete": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "config.logLevels.get": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "config.logLevels.set": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "diagnostics.logs.list": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "diagnostics.logs.tail": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "host.restart": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "host.identity.get": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "host.identity.set": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "host.doctor": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "host.update.check": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "host.update.install": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "host.update.activate": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "host.update.continue": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "host.getInstallationInfo": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "host.service.status": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "host.service.register": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "host.service.deregister": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "host.usage.summary": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "lifecycle.claimShutdown": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "lifecycle.commitShutdown": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "lifecycle.releaseShutdown": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "host.rebindLocalStore": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "providers.consumeRateLimitResetCredit": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "providers.refreshProfileStatus": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "host.notificationHooks.status": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "host.notificationHooks.test": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "host.notificationHooks.save": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "host.notifications.getConfig": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "host.notifications.setConfig": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "host.notifications.markRead": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "host.notifications.resolve": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "host.notifications.clearAll": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "chat.readAccumulatedFileChange": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "chat.locateRow": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "chat.search": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "agent.tui.validateForkProfile": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "agent.tui.promptSubmitted": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "agent.resolveMessagePeer": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "agent.roles.claim": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "agent.roles.list": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "agent.roles.relinquish": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "agent.inbox.ack": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "agent.fork": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.setPinned": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.recordViewed": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.getTaskContexts": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "workspace.browseFolders": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "workspace.searchPaths": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "workspace.searchText": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.updateChatRunSettings": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.updateChatProfile": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "sessionImport.status": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.chatPublicationState": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.setChatArchived": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.prepareArtifactImage": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.finishArtifactImage": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.searchArtifacts": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.artifactVersions.list": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.artifactVersions.getBlob": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.artifactVersions.restore": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.deletedArtifacts.list": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.deletedArtifacts.revive": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.artifactVersionSettings.get": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.artifactVersionSettings.setEnabled": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.artifactVersionSettings.setRetentionPolicy": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.artifactVersionSettings.clearHistory": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.chatReplicaRead": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.listChatRecords": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.getWorkspaceContext": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.retryMigration": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.readChatAttachment": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.fetchArtifactAttachment": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.getChatRunSettings": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.listTuiAgents": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "resources.kill": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "resources.listLocalServers": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "managedCommand.start": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "managedCommand.stop": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "managedCommand.delete": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "managedCommand.create": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "managedCommand.list": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "managedCommand.view": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "managedCommand.configureAgentShell": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "managedCommand.restart": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "managedCommand.configure": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "managedCommand.deliverHeld": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "terminal.readOutput": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "terminal.plain.create": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "terminal.plain.list": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "terminal.plain.rename": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "terminal.plain.ensureRunning": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "terminal.plain.close": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "terminal.plain.importLegacy": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "worktree.listHolders": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "worktree.setRepoBranchPrefix": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "worktree.setRepoSubmodules": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "worktree.setRepoDeleteOnMerge": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "agent.listProviderProfiles": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "agent.getProviderProfileRateLimits": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "agent.configure": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "pr.getLocalDiff": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "pr.getLocalDiffSummary": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "pr.getLocalFileDiff": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "pr.watch.set": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "pr.watch.clear": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "pr.watch.list": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "oversight.list": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "oversight.link": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "oversight.unlink": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "oversight.setMute": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "mention.githubCatalog": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "mention.githubSearch": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "worktree.getAutoCleanupPolicy": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "worktree.setAutoCleanupPolicy": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "worktree.listAutoCleanupRuns": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "worktree.getAutoCleanupRun": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "worktree.listArchives": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "worktree.restoreArchive": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "worktree.deleteArchive": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "providers.setProfileEnabled": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "providers.setProfileApiKey": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "providers.clearProfileApiKey": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "providers.mcpAuth": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "providers.awaitMcpAuth": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "providers.cancelMcpAuth": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "providers.nativeMutate": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "ssh.listServers": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "ssh.listImportable": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "ssh.saveServer": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "ssh.removeServer": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "ssh.checkHostKey": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "ssh.listHostKeys": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "ssh.forgetHostKey": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "ssh.trustHostKey": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "ssh.openTerminal": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "providers.getWorkspaceMcpTrust": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "providers.setWorkspaceMcpTrust": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "providers.listModelProviders": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "providers.modelProviderAuth": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "providers.awaitModelProviderAuth": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "providers.cancelModelProviderAuth": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "providers.submitLoginCode": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "providers.touchLogin": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "providers.startTerminalLogin": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "organization.read": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "organization.command": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "organization.history": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "studio.prompts.list": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "studio.prompts.decide": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "studio.tasks.setArchived": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "studio.tasks.listArchived": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "studio.design.components.list": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "studio.connectors.list": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "studio.connectors.check": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "studio.tasks.preview": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "studio.kernel.snapshot": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "studio.kernel.events": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "studio.kernel.metrics": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "studio.tasks.create": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "studio.tasks.setStatus": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "studio.runs.queue": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "studio.runs.retry": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "studio.runs.dispatch": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "studio.runs.recover": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "studio.runs.start": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "studio.runs.setStep": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "studio.runs.pause": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "studio.runs.resume": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "studio.runs.requestCancel": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "studio.runs.cancel": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "studio.runs.complete": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "studio.runs.fail": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "studio.artifacts.record": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "studio.artifacts.list": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "studio.evidence.record": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "studio.permissions.request": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "studio.permissions.decide": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "studio.checkpoints.capture": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "studio.checkpoints.restore": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "autoJudge.get": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "autoJudge.set": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "autoJudge.setLocal": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "autoPolicy.get": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "autoPolicy.set": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "codeSearch.getSettings": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "codeSearch.setSettings": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "codeSearch.getIndexStatus": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "idleCompaction.getSettings": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "idleCompaction.setSettings": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "titleGeneration.getSettings": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "titleGeneration.setSettings": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "cloud.getStatus": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "cloud.setSettings": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "cloud.signIn": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "cloud.signOut": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "design.export": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "design.preview.changes": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "design.preview.mint": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "design.preview.reopen": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "design.systems.list": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "design.tokens.read": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "design.tokens.write": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "chat.getDesign": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "chat.setDesign": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "design.stitch.accept": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "design.stitch.clearKey": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "design.stitch.job": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "design.stitch.setKey": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "design.stitch.start": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "design.stitch.status": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "chat.getComputerUse": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "chat.setComputerUse": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "chat.restartSession": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "chat.getOrchestration": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "chat.setOrchestration": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "chat.deliverExternalMessage": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.getChatRunSettingsBatch": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "epic.continueSubagent": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "config.worktrees.get": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "config.worktrees.set": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "ssh.listConnections": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "ssh.getServerStats": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "ssh.connect": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "ssh.switchToKeyLogin": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "chat.getSshServers": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "chat.setSshServers": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "chat.resolveExpiredSshCommand": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "promptessor.clearKey": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "promptessor.job": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "promptessor.read": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "promptessor.setKey": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "promptessor.start": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "promptessor.status": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "plugins.list": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "plugins.inspect": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "plugins.install": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "plugins.setEnabled": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "plugins.uninstall": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "plugins.renderBlock": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "plugins.renderFile": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "antigravityAcp.getStatus": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "antigravityAcp.install": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "workspace.writeFile": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "git.getFileContents": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "host.notifications.list": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "host.notifications.markAllRead": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      },
+      "host.notifications.indicatorState": {
+        "major": 1,
+        "minor": 0,
+        "supportedMajors": [
+          1
+        ]
+      }
+    }
+  },
+  "stream": {
+    "organization.subscribe": {
+      "major": 1,
+      "minor": 0,
+      "supportedMajors": [
+        1
+      ]
+    },
+    "studio.kernel.subscribe": {
+      "major": 1,
+      "minor": 0,
+      "supportedMajors": [
+        1
+      ]
+    },
+    "epic.state.subscribe": {
+      "major": 1,
+      "minor": 0,
+      "supportedMajors": [
+        1
+      ]
+    },
+    "epic.status.subscribe": {
+      "major": 1,
+      "minor": 0,
+      "supportedMajors": [
+        1
+      ]
+    },
+    "artifact.subscribe": {
+      "major": 1,
+      "minor": 0,
+      "supportedMajors": [
+        1
+      ]
+    },
+    "host.notifications.feed.subscribe": {
+      "major": 1,
+      "minor": 0,
+      "supportedMajors": [
+        1
+      ]
+    },
+    "terminal.subscribe": {
+      "major": 1,
+      "minor": 0,
+      "supportedMajors": [
+        1
+      ]
+    },
+    "terminal.plain.subscribeList": {
+      "major": 1,
+      "minor": 0,
+      "supportedMajors": [
+        1
+      ]
+    },
+    "managedCommand.subscribeOutput": {
+      "major": 1,
+      "minor": 0,
+      "supportedMajors": [
+        1
+      ]
+    },
+    "browser.sessions": {
+      "major": 1,
+      "minor": 0,
+      "supportedMajors": [
+        1
+      ]
+    },
+    "browser.screencast": {
+      "major": 1,
+      "minor": 0,
+      "supportedMajors": [
+        1
+      ]
+    },
+    "git.subscribeStatus": {
+      "major": 1,
+      "minor": 0,
+      "supportedMajors": [
+        1
+      ]
+    },
+    "workspace.subscribeFileList": {
+      "major": 1,
+      "minor": 0,
+      "supportedMajors": [
+        1
+      ]
+    },
+    "workspace.streamAsset": {
+      "major": 1,
+      "minor": 0,
+      "supportedMajors": [
+        1
+      ]
+    },
+    "git.streamFileAsset": {
+      "major": 1,
+      "minor": 0,
+      "supportedMajors": [
+        1
+      ]
+    },
+    "resources.subscribe": {
+      "major": 1,
+      "minor": 0,
+      "supportedMajors": [
+        1
+      ]
+    },
+    "agent.inbox.subscribe": {
+      "major": 1,
+      "minor": 0,
+      "supportedMajors": [
+        1
+      ]
+    },
+    "agent.activity.subscribe": {
+      "major": 1,
+      "minor": 0,
+      "supportedMajors": [
+        1
+      ]
+    },
+    "epic.communicationGraph.subscribe": {
+      "major": 1,
+      "minor": 0,
+      "supportedMajors": [
+        1
+      ]
+    },
+    "host.chatRecords.subscribe": {
+      "major": 1,
+      "minor": 0,
+      "supportedMajors": [
+        1
+      ]
+    },
+    "sessionImport.scan": {
+      "major": 1,
+      "minor": 0,
+      "supportedMajors": [
+        1
+      ]
+    },
+    "sessionImport.run": {
+      "major": 1,
+      "minor": 0,
+      "supportedMajors": [
+        1
+      ]
+    },
+    "worktree.deleteByPath": {
+      "major": 1,
+      "minor": 0,
+      "supportedMajors": [
+        1
+      ]
+    },
+    "worktree.deleteBatchByPath": {
+      "major": 1,
+      "minor": 0,
+      "supportedMajors": [
+        1
+      ]
+    },
+    "worktree.changed": {
+      "major": 1,
+      "minor": 0,
+      "supportedMajors": [
+        1
+      ]
+    },
+    "providers.changed": {
+      "major": 1,
+      "minor": 0,
+      "supportedMajors": [
+        1
+      ]
+    },
+    "speech.dictate": {
+      "major": 1,
+      "minor": 0,
+      "supportedMajors": [
+        1
+      ]
+    },
+    "pr.subscribeListForEpic": {
+      "major": 1,
+      "minor": 0,
+      "supportedMajors": [
+        1
+      ]
+    },
+    "pr.subscribeDetail": {
+      "major": 1,
+      "minor": 0,
+      "supportedMajors": [
+        1
+      ]
+    },
+    "chat.subscribe": {
+      "major": 1,
+      "minor": 0,
+      "supportedMajors": [
+        1
+      ]
+    }
+  }
+}

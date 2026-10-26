@@ -1,0 +1,22 @@
+[package]
+name = "dcode-app"
+description = "The DCode desktop client, on GPUI."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[lints]
+workspace = true
+
+[[bin]]
+name = "dcode-app"
+path = "src/main.rs"
+
+[dependencies]
+anyhow = "1.0.104"
+dcode-api = { version = "0.1.0", path = "../dcode-api" }
+gpui-kit.workspace = true
+
+[dev-dependencies]
+gpui-kit = { workspace = true, features = ["test-support"] }

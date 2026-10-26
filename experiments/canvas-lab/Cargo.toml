@@ -1,0 +1,19 @@
+[workspace]
+
+[package]
+name = "canvas-lab"
+description = "Phase 0 throwaway: a zoomable tile canvas and a WebView tile, to measure GPUI before building the real canvas."
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+publish = false
+
+[features]
+# GPUI Fast backend. gpui-kit and gpui-webview must agree.
+fast = ["gpui-kit/gpui-fast", "gpui-webview/gpui-fast"]
+
+[dependencies]
+gpui-kit = "0.8.1"
+gpui-webview = "0.8.1"
+# gpui-webview builds on Longbridge's wry fork under the name `wry`.
+wry = { package = "lb-wry", version = "0.53.3" }

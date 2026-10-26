@@ -1,0 +1,16 @@
+[package]
+name = "dcode-api"
+description = "Typed DCode host API over dcode-client."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+dcode-client = { path = "../dcode-client" }
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = "1.0.154"
+thiserror = "2.0.21"
